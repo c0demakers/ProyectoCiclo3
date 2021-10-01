@@ -17,3 +17,17 @@ ul{
 .logo{
     height: 70px;
 }
+
+.botonGenerico{
+    background-color: rgb(112, 255, 112);
+    border: 0px;
+    border-radius: 10px;
+    font-weight: bolder;
+    
+}
+
+.botonGenerico:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px green;
+    transform: scale(1.1);
+}
