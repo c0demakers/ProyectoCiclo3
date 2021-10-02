@@ -6,31 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda de mascotas - Productos</title>
-    <link rel = "stylesheet" href = "./styles/estilos.css" />
+    <link rel="stylesheet" href="./styles/estilos.css" />
     <link rel="shotcut icon" href="./media/favicon.png" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/96e7620130.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <ul class="navbar">
             <li>
-                <img class = logo src='./media/logo.png' alt="imagen"/>
+                <img class=logo src='./media/logo.png' alt="imagen" />
             </li>
             <li>
-                <button class="botonGenerico">Gestión de ventas</button>
+                <button class="button botonPrincipal">Gestion de ventas</button>
             </li>
             <li>
-                <button class="botonGenerico">Gestión de productos</button>
+                <button class="button botonPrincipal">Gestion de productos</button>
             </li>
             <li>
-                <button class="botonGenerico">Gestión de usuarios</button>
+                <button class="button botonPrincipal">Gestion de usuarios</button>
             </li>
         </ul>
     </header>
     <main>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section>
+            <ul class="contenido">
+                <li>
+                    Foto e informacion del producto
+
+                </li>
+                <li>
+                    <ul>
+                        <li>
+                            <div class="buscar cuadroTexto">
+                                <input placeholder="Buscar un producto"/>
+                                <i class="fas fa-search button"></i>
+                            </div>
+                        </li>
+                        <div >Identificador de producto
+                            <input class="cuadroTexto" placeholder="Agregue un Identificador" />
+                        </div>
+                        <div> Nombre del producto
+                            <input class="cuadroTexto" placeholder="Agregue nombre del producto" />
+                        </div>
+                        <div> Descripcion
+                            <input class="cuadroTexto" placeholder="Agregue una descripcion" />
+                        </div>
+                        <div> Precio
+                            <input class="cuadroTexto" placeholder="Agregue un precio" />
+                        </div>
+                        <div> Stock
+                            <input class="cuadroTexto" placeholder="Agregue el stock" />
+                        </div>
+                    </ul>
+                </li>
+                <li>
+                    Lista de productos
+                </li>
+            </ul>
+        </section>
     </main>
     <footer></footer>
 

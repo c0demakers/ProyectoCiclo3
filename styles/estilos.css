@@ -6,28 +6,72 @@ ul{
     list-style: none;
     padding: 0px;
     margin: 0px;
+    align-items: center;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
     padding: 10px;
-   }
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px gray;
+    }
 
 .logo{
-    height: 70px;
+    height: 100px;
 }
 
-.botonGenerico{
-    background-color: rgb(112, 255, 112);
+@font-face {
+    font-family: 'Trampoline';
+    src: url('trampoline.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+     url('trampoline.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  }  
+
+.button{
     border: 0px;
     border-radius: 10px;
+    padding: 2px 2px;
     font-weight: bolder;
-    
-}
+    font-size: medium;
+    font-family: 'Trampoline';
+ 
+    }
 
-.botonGenerico:hover{
+.button:hover{
     cursor: pointer;
-    box-shadow: 3px 3px green;
+    box-shadow: 2px 2px #1C5466;
     transform: scale(1.1);
 }
+
+.botonPrincipal{
+    background-color: #00C0E4;
+    color: #1C5466;
+    padding: 10px 30px;    
+}
+
+
+.contenido{
+    display:flex;
+    justify-content:space-evenly;
+    padding: 15px;
+    font-weight: bolder;
+    font-family: 'Trampoline';
+   }
+
+.cuadroTexto{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 1px;
+    border-radius: 5px;
+ }
+
+ .cuadroTexto > input{
+    outline: none;
+    border: 0px;
+ }
+
+ .buscar{
+    display:flex;
+    justify-content:space-between;
+    padding: 1px;
+ }
