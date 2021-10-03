@@ -49,25 +49,23 @@ ul{
 }
 
 .contenedor{
-    display:flex;
-    justify-content:space-around;
-    padding: 10px;
-    margin: 0px;
     font-weight: bolder;
     font-family: 'Trampoline';
     color: #1C5466;
-   }
+    display: grid;
+    grid-column: auto;
+    grid-template-columns: 25% 25% 50%;
+    grid-template-rows: 100%;
+    align-items:center;
+    }
 
-   .contenedorVertical{
-    margin: 0px;
-    padding:10px;
-    display:flex;
-    flex-direction: column;
-    justify-content:space-around;
-    column-gap: 3%;
-   }
-
-
+    .divSpacing{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+  
 .cuadroTexto{
     background-color: white;
     border: 1px solid gray;
@@ -87,7 +85,7 @@ ul{
  }
 
  .imagenProducto{
-    height: 100px;
+    height: 250px;
     border-radius: 50%;
     border: 1px solid gray;
  }

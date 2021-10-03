@@ -26,68 +26,46 @@
             <li>
                 <button class="button botonPrincipal">Gestion de usuarios</button>
             </li>
+            <li>
+                <button class="button botonPrincipal">Salir</button>
+            </li>
         </ul>
     </header>
     <main>
-        <ul class="contenedor">
-            <li>
-                <ul class="contenedorVertical">
-                    <li>
-                        <img class="imagenProducto" src="media/squeaky.jpg" alt="Avatar">
-                    </li>
-                    <li>
-                        ID:
-                    </li>
-                    <li>
-                        Producto:
-                    </li>
-                    <li>
-                        Descripcion:
-                    </li>
-                    <li>
-                        Precio:
-                    </li>
-                    <li>
-                        Stock:
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <ul class="contenedorVertical">
-                    <li>
-                        <div class="buscar cuadroTexto">
-                            <input placeholder="Buscar un producto" />
-                            <i class="fas fa-search button"></i>
-                        </div>
-                    </li>
-                    <div>Identificador de producto
-                        <input class="cuadroTexto" placeholder="Agregue un Identificador" />
-                    </div>
-                    <div> Nombre del producto
-                        <input class="cuadroTexto" placeholder="Agregue nombre del producto" />
-                    </div>
-                    <div> Descripcion
-                        <input class="cuadroTexto" placeholder="Agregue una descripcion" />
-                    </div>
-                    <div> Precio
-                        <input class="cuadroTexto" placeholder="Agregue un precio" />
-                    </div>
-                    <div> Stock
-                        <input class="cuadroTexto" placeholder="Agregue el stock" />
-                    </div>
-                    <li>
-                        <button class="button botonPrincipal">Editar</button>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <ul class="contenedorVertical">
-                    <li>
-                        <iframe class="tablaExcel"
-                            src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSUt1iOcOgWG7R-Shp73_qyHoVRP_jX1lYk9f1VQGBZQXIi32_DqnuNjSzJTtWlbfILW2Z8hyRIkC_Z/pubhtml"></iframe>
-                    </li>
-            </li>
-        </ul>
+        <div class="contenedor">
+            <div>
+                <img class="imagenProducto" src="media/squeaky.jpg" alt="Avatar">
+            </div>
+            <div>
+                <div class="divSpacing buscar cuadroTexto">
+                    <input placeholder="Buscar un producto" />
+                    <i class="fas fa-search button"></i>
+                </div>
+                <div class="divSpacing">Identificador de producto
+                    <input class="cuadroTexto" placeholder="Agregue un Identificador" />
+                </div>
+                <div class="divSpacing"> Nombre del producto
+                    <input class="cuadroTexto" placeholder="Agregue nombre del producto" />
+                </div>
+                <div class="divSpacing"> Descripcion
+                    <input class="cuadroTexto" placeholder="Agregue una descripcion" />
+                </div>
+                <div class="divSpacing"> Precio
+                    <input class="cuadroTexto" placeholder="Agregue un precio" />
+                </div>
+                <div class="divSpacing"> Stock
+                    <input class="cuadroTexto" placeholder="Agregue el stock" />
+                </div>
+                <div class="divSpacing">
+                    <button class="button botonPrincipal">Editar</button>
+                    <button class="button botonPrincipal">Actualizar</button>
+                </div>
+            </div>
+            <div>
+                <iframe class="tablaExcel"
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSUt1iOcOgWG7R-Shp73_qyHoVRP_jX1lYk9f1VQGBZQXIi32_DqnuNjSzJTtWlbfILW2Z8hyRIkC_Z/pubhtml"></iframe>
+            </div>
+        </div>
 
     </main>
     <footer></footer>
