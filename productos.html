@@ -34,37 +34,51 @@
     <main>
         <div class="contenedor">
             <div>
-                <img class="imagenProducto" src="media/squeaky.jpg" alt="Avatar">
-            </div>
-            <div>
                 <div class="divSpacing buscar cuadroTexto">
                     <input placeholder="Buscar un producto" />
                     <i class="fas fa-search button"></i>
                 </div>
-                <div class="divSpacing">Identificador de producto
+
+                <div class="divSpacing">
+                    <div>Identificador de producto</div>
                     <input class="cuadroTexto" placeholder="Agregue un Identificador" />
                 </div>
-                <div class="divSpacing"> Nombre del producto
+
+                <div class="divSpacing">
+                    <div>Nombre del producto</div>
                     <input class="cuadroTexto" placeholder="Agregue nombre del producto" />
                 </div>
-                <div class="divSpacing"> Descripcion
-                    <input class="cuadroTexto" placeholder="Agregue una descripcion" />
-                </div>
-                <div class="divSpacing"> Precio
+
+                <div class="divSpacing">
+                    <div>Precio</div>
                     <input class="cuadroTexto" placeholder="Agregue un precio" />
                 </div>
-                <div class="divSpacing"> Stock
+
+                <div class="divSpacing">
+                    <div>Stock</div>
                     <input class="cuadroTexto" placeholder="Agregue el stock" />
                 </div>
+
                 <div class="divSpacing">
-                    <button class="button botonPrincipal">Editar</button>
-                    <button class="button botonPrincipal">Actualizar</button>
+                    <button class="button botonSecundario">Editar</button>
+                    <button class="button botonSecundario">Actualizar</button>
                 </div>
             </div>
+
             <div>
-                <iframe class="tablaExcel"
-                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSUt1iOcOgWG7R-Shp73_qyHoVRP_jX1lYk9f1VQGBZQXIi32_DqnuNjSzJTtWlbfILW2Z8hyRIkC_Z/pubhtml"></iframe>
+                <img class="divSpacing imagenProducto" src="media/squeaky.jpg" alt="Avatar">
             </div>
+            
+            <div>
+                <div class="divSpacing">
+                    <button class="centrarButton button botonSecundario">Actualizar lista de productos</button>
+                </div>
+                <div class="divSpacing">
+                    <iframe title="Lista de productos"  class="tablaExcel"
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSUt1iOcOgWG7R-Shp73_qyHoVRP_jX1lYk9f1VQGBZQXIi32_DqnuNjSzJTtWlbfILW2Z8hyRIkC_Z/pubhtml"></iframe>
+                </div>
+            </div>
+
         </div>
 
     </main>
