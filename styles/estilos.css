@@ -17,20 +17,14 @@ ul{
     }
 
 .ordenTablas{
-    margin: 50px;
+    margin: 20px;
     display: flex;
-    justify-content: space-between;
-
 }
 
 .margenEspecial{
     margin: 40px;
 }
 
-.separador{
-    width: 500px;
-
-}
 
 .logo{
     height: 100px;
@@ -159,13 +153,15 @@ ul{
     grid-column: auto;
     grid-template-columns: 25% 25% 50%;
     grid-template-rows: 100%;
-    align-items:center;
+    align-items:left;
     display: flex;
+    margin-top: 98px;
     }
 
 .ordenadorFormulario{
     display: flex;
     flex-direction: column;
+    justify-content: left;
 }
 .divSpacing{
         margin-top: 10%;

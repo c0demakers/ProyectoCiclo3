@@ -79,9 +79,10 @@
              </tr>
          </table></section>
 
-         <section class="margenEspecial separador">
+         <section>
         <div class="contenedor">
             <div>
+                <ul>
                 <h2 class=titulo2><strong>EDITOR DE USUARIOS</strong></h2>
                 <div class="divSpacing buscar cuadroTexto">
                     <input placeholder="Buscar un usuario"/>
@@ -89,27 +90,29 @@
                 </div>
                 <div class="divSpacing">
                     <button class="button botonSecundario">Editar</button>
-                </div>
+                </div></ul>
 
-            <div class="ordenadorFormulario">
+            <ul class="ordenadorFormulario">
                 <form action="#" target="" method="get" name="actualizacionUsuarios">
-                    <label for="NOMBRE Y APELLIDO" >
+                    <li><label for="NOMBRE Y APELLIDO" >
                         <span>Escriba el nombre y apellido</span>
                         <input type="text" id="nombre" placeholder="Nombre y apellido">
-                    </label>
-                    <label for="ROL DE USUARIO">
+                    </label></li>
+                    
+                    <li><label for="ROL DE USUARIO">
                         <span>Escriba el rol</span>
                         <input type="text" id="rol" placeholder="Rol">
-                    </label>
-                    <label for="ESTADO">
+                    </label></li>
+
+                    <li><label for="ESTADO">
                         <span>Escriba el estado</span>
                         <input type="text" id="estado" placeholder="Estado">
-                    </label>
-                    <input type="submit" class="button botonGuardar" value="Guardar"/>
+                    </label</li>
+                    <li><input type="submit" class="button botonGuardar" value="Guardar"/></li>
                 </form>
 
             
-                <a href="#popUp">Guardar</a>
+                <li><a href="#popUp">Guardar</a>
                 <div id="popUp" class="popup">
                 <div class="pop-up">
                 <a href="#">X</a>
@@ -119,14 +122,15 @@
                 </center>
             
         </div>  
+                </div></li>
+
+            </ul>
+
+        </div>
+
+        </div>
+    </section>
 </div>
-
-            </div>
-
-        </div>
-
-        </div>
-    </section></div>
     </main>
     <footer></footer>
 
