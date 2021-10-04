@@ -17,9 +17,19 @@ ul{
     }
 
 .ordenTablas{
-    margin: 20px;
+    margin: 50px;
     display: flex;
     justify-content: space-between;
+
+}
+
+.margenEspecial{
+    margin: 40px;
+}
+
+.separador{
+    width: 500px;
+
 }
 
 .logo{
@@ -56,10 +66,12 @@ ul{
     line-height: 25%  
 }
 
-.titulo2{font-size: 35px;
+.titulo2{
+    font-size: 35px;
     color: #1C5466;
     font-family:'Trampoline'; 
-    line-height: 25%  
+    
+    
 }
 
 .button{
@@ -148,8 +160,13 @@ ul{
     grid-template-columns: 25% 25% 50%;
     grid-template-rows: 100%;
     align-items:center;
+    display: flex;
     }
 
+.ordenadorFormulario{
+    display: flex;
+    flex-direction: column;
+}
 .divSpacing{
         margin-top: 10%;
         margin-bottom: 10%;
