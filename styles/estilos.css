@@ -16,6 +16,12 @@ ul{
     box-shadow: 1px 1px gray;
     }
 
+.ordenTablas{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .logo{
     height: 100px;
 }
@@ -129,7 +135,7 @@ ul{
     -webkit-border-radius: 5px; 
     text-align: center;
     font-family:'Abadi';
-    width: 40%;
+    width: 500px;
 }
 
 .contenedor{
