@@ -1,9 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
-<meta charset="utf-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gestión de usuarios</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de usuarios</title>
+    <link rel="stylesheet" href="./styles/estilos.css" />
+    <link rel="shotcut icon" href="./media/favicon.png" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/96e7620130.js" crossorigin="anonymous"></script>
 </head>
+
+<body>
+    <header>
+        <ul class="navbar">
+            <li>
+                <img class=logo src='./media/logo.png' alt="imagen" />
+            </li>
+            <li>
+                <button class="button botonPrincipal">Gestion de ventas</button>
+            </li>
+            <li>
+                <button class="button botonPrincipal">Gestion de productos</button>
+            </li>
+            <li>
+                <button class="button botonPrincipal">Gestion de usuarios</button>
+            </li>
+            <li>
+                <button class="button botonPrincipal">Salir</button>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div>
+            <img src="media/foto-usuario.png" width="120" height="120" alt="InternetCtrl">
+            <p class=parrafo1>Administrador</p>
+            <p class=parrafo2>NOMBRE Y APELLIDO DE USUARIO</p>
+            <p class=parrafo1>Estado: activo</p>
+        </div>
+
+        <h1 class=titulo><strong>ADMINISTRADOR DE USUARIOS</strong></h1>
+        <table id="tabla">
+            <tr>
+                <th>Nombre y apellido</th>
+                <th>Rol</th>
+                <th>Estado</th>
+            </tr>
+          
+            <tr>
+                <td>Pedro Mesa</td>
+                <td>Administrador</td>
+                <td>Activo</td>
+             </tr>
+
+             <tr>
+                <td>Sandra Castro</td>
+                <td>Administrador</td>
+                <td>Activo</td>
+             </tr>
+
+             <tr>
+                <td>Manuel Mejía</td>
+                <td>Vendedor</td>
+                <td>Activo</td>
+             </tr>
+
+             <tr>
+                <td>Andrea Ossa</td>
+                <td>Vendedor</td>
+                <td>Inactivo</td>
+             </tr>
+
+             <tr>
+                <td>Natalia Diaz</td>
+                <td>Vendedor</td>
+                <td>Inactivo</td>
+             </tr>
+         </table>
+
+        <div class="contenedor">
+            <div>
+                <h2 class=titulo2><strong>EDITOR DE USUARIOS</strong></h2>
+                <div class="divSpacing buscar cuadroTexto">
+                    <input placeholder="Buscar un usuario"/>
+                    <i class="fas fa-search button"></i>
+                </div>
+                <div class="divSpacing">
+                    <button class="button botonSecundario">Editar</button>
+                </div>
+
+                <form action="#" target="" method="get" name="actualizacionUsuarios">
+                    <label for="NOMBRE Y APELLIDO" >
+                        <span>Escriba el nombre y apellido</span>
+                        <input type="text" id="nombre" placeholder="Nombre y apellido">
+                    </label>
+                    <label for="ROL DE USUARIO">
+                        <span>Escriba el rol</span>
+                        <input type="text" id="rol" placeholder="Rol">
+                    </label>
+                    <label for="ESTADO">
+                        <span>Escriba el estado</span>
+                        <input type="text" id="estado" placeholder="Estado">
+                    </label>
+                    <input type="submit" class="button botonGuardar" value="Guardar"/>
+                </form>
+
+            
+                <a href="#popUp">Guardar</a>
+                <div id="popUp" class="popup">
+                <div class="pop-up">
+                <a href="#">X</a>
+                <center>
+                    <img src="media/guardado.png" width="50" height="50" alt="InternetCtrl">
+                <p>Los cambios han sido guardados exitosamente.</p>
+                </center>
+            
+        </div>  
+</div>
+
+            </div>
+
+            
+
+        </div>
+
+    </main>
+    <footer></footer>
+
+</body>
+
 </html>
