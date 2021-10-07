@@ -33,7 +33,7 @@
     </header>
     <main>
         <div class="contenedor">
-            <div>
+            <div class="col">
                 <div class="divSpacing buscar cuadroTexto">
                     <input placeholder="Buscar un producto" />
                     <i class="fas fa-search button"></i>
@@ -65,25 +65,89 @@
                 </div>
             </div>
 
-            <div>
-                <img class="divSpacing imagenProducto" src="media/squeaky.jpg" alt="Avatar">
+            <div class="col">
+                <img class="imagenProducto" src="media/squeaky.jpg" alt="Avatar">
+                <div class="divSpacing">
+                    <button class="centrarButton button botonSecundario">Editar imagen</button>
+                </div>
             </div>
-            
-            <div>
+
+            <div class="col">
                 <div class="divSpacing">
                     <button class="centrarButton button botonSecundario">Actualizar lista de productos</button>
                 </div>
-                <div class="divSpacing">
-                    <iframe title="Lista de productos"  class="tablaExcel"
-                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSUt1iOcOgWG7R-Shp73_qyHoVRP_jX1lYk9f1VQGBZQXIi32_DqnuNjSzJTtWlbfILW2Z8hyRIkC_Z/pubhtml"></iframe>
-                </div>
+                <div class="tabla-wrap"><table class="tabla">
+                    <thead>
+                      <tr>
+                        <th class="tabla-encabezado">ID</th>
+                        <th class="tabla-encabezado">Producto</th>
+                        <th class="tabla-encabezado">Precio</th>
+                        <th class="tabla-encabezado">Stock</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="tabla-fila">001</td>
+                        <td class="tabla-fila">Hueso</td>
+                        <td class="tabla-fila">5000</td>
+                        <td class="tabla-fila">20</td>
+                      </tr>
+                      <tr>
+                        <td class="tabla-fila">002</td>
+                        <td class="tabla-fila">Collar</td>
+                        <td class="tabla-fila">20000</td>
+                        <td class="tabla-fila">10</td>
+                      </tr>
+                      <tr>
+                        <td class="tabla-fila">003</td>
+                        <td class="tabla-fila">Pelota</td>
+                        <td class="tabla-fila">3000</td>
+                        <td class="tabla-fila">30</td>
+                      </tr>
+                      <tr>
+                        <td class="tabla-fila">004</td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                      </tr>
+                      <tr>
+                        <td class="tabla-fila">005</td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                      </tr>
+                      <tr>
+                        <td class="tabla-fila">006</td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                      </tr>
+                      <tr>
+                        <td class="tabla-fila">007</td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                      </tr>
+                      <tr>
+                        <td class="tabla-fila">008</td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                      </tr>
+                      <tr>
+                        <td class="tabla-fila">009</td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                      </tr>
+                    </tbody>
+                    </table></div>
             </div>
 
         </div>
 
     </main>
-    <footer></footer>
-
+    <footer>C0demakers 2021</footer>
 </body>
 
 </html>

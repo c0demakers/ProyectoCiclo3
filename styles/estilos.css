@@ -1,12 +1,12 @@
-body{
-    margin:0px
-    }
+
+body { min-height: 100vh; margin:0px }
+
+main { min-height: 80vh; }
 
 ul{
     list-style: none;
     align-items: center;
 }
-
 
 .navbar{
     display: flex;
@@ -80,16 +80,19 @@ ul{
     font-weight: bolder;
     font-family: 'Trampoline';
     color: #1C5466;
-    display: grid;
-    grid-column: auto;
-    grid-template-columns: 25% 25% 50%;
-    grid-template-rows: 100%;
-    align-items:center;
+    font-size:larger;
+    display: flex; 
+    align-items: center;
+    }
+
+.col{
+    flex: 1;
+    align-items: center;
     }
 
 .divSpacing{
         margin-top: 10%;
-        margin-bottom: 10%;
+        margin-bottom: 20%;
         margin-left: 3%;
         margin-right: 3%;
    }
@@ -116,12 +119,18 @@ ul{
     height: 250px;
     border-radius: 50%;
     border: 1px solid gray;
- }
-
- .tablaExcel{
-     height: 100%;
-     width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
  }
 
 
+/*Estilos de tabla autogenerada */
+.tabla {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tabla td{border-color:black;border-style:solid;border-width:1px;font-family:'Trampoline', sans-serif;font-size:20px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tabla th{border-color:black;border-style:solid;border-width:1px;font-family:'Trampoline', sans-serif;font-size:20px;
+  font-weight:bolder;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tabla .tabla-fila{border-color:inherit;text-align:center;vertical-align:top}
+.tabla .tabla-encabezado{background-color:#00c0e4;border-color:inherit;color:#1c5466;text-align:center;vertical-align:top}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}
 
