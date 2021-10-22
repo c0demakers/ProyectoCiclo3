@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de mascotas - Productos</title>
+    <link rel="stylesheet" href="./styles/estilos.css" />
+    <link rel="shotcut icon" href="./media/favicon.png" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/96e7620130.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <ul class="navbar">
+            <li>
+                <img class=logo src='./media/logo.png' alt="imagen" />
+            </li>
+            <li>
+                <button class="button botonPrincipal">Gestion de ventas</button>
+            </li>
+            <li>
+                <button class="button botonPrincipal">Gestion de productos</button>
+            </li>
+            <li>
+                <button class="button botonPrincipal">Gestion de usuarios</button>
+            </li>
+            <li>
+                <button class="button botonPrincipal">Salir</button>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="contenedor">
+            <div class="col">
+                <div class="divSpacing buscar cuadroTexto">
+                    <input placeholder="Buscar un producto" />
+                    <i class="fas fa-search button"></i>
+                </div>
+
+                <div class="divSpacing">
+                    <div>Identificador de producto</div>
+                    <input class="cuadroTexto" placeholder="Agregue un Identificador" />
+                </div>
+
+                <div class="divSpacing">
+                    <div>Nombre del producto</div>
+                    <input class="cuadroTexto" placeholder="Agregue nombre del producto" />
+                </div>
+
+                <div class="divSpacing">
+                    <div>Precio</div>
+                    <input class="cuadroTexto" placeholder="Agregue un precio" />
+                </div>
+
+                <div class="divSpacing">
+                    <div>Stock</div>
+                    <input class="cuadroTexto" placeholder="Agregue el stock" />
+                </div>
+
+                <div class="divSpacing">
+                    <button class="button botonSecundario">Editar</button>
+                    <button class="button botonSecundario">Actualizar</button>
+                </div>
+            </div>
+
+            <div class="col">
+                <img class="imagenProducto" src="media/squeaky.jpg" alt="Avatar">
+                <div class="divSpacing">
+                    <button class="centrarButton button botonSecundario">Editar imagen</button>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="divSpacing">
+                    <button class="centrarButton button botonSecundario">Actualizar lista de productos</button>
+                </div>
+                <div class="tabla-wrap"><table class="tabla">
+                    <thead>
+                      <tr>
+                        <th class="tabla-encabezado">ID</th>
+                        <th class="tabla-encabezado">Producto</th>
+                        <th class="tabla-encabezado">Precio</th>
+                        <th class="tabla-encabezado">Stock</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="tabla-fila">001</td>
+                        <td class="tabla-fila">Hueso</td>
+                        <td class="tabla-fila">5000</td>
+                        <td class="tabla-fila">20</td>
+                      </tr>
+                      <tr>
+                        <td class="tabla-fila">002</td>
+                        <td class="tabla-fila">Collar</td>
+                        <td class="tabla-fila">20000</td>
+                        <td class="tabla-fila">10</td>
+                      </tr>
+                      <tr>
+                        <td class="tabla-fila">003</td>
+                        <td class="tabla-fila">Pelota</td>
+                        <td class="tabla-fila">3000</td>
+                        <td class="tabla-fila">30</td>
+                      </tr>
+                      <tr>
+                        <td class="tabla-fila">004</td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                      </tr>
+                      <tr>
+                        <td class="tabla-fila">005</td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                      </tr>
+                      <tr>
+                        <td class="tabla-fila">006</td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                      </tr>
+                      <tr>
+                        <td class="tabla-fila">007</td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                      </tr>
+                      <tr>
+                        <td class="tabla-fila">008</td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                      </tr>
+                      <tr>
+                        <td class="tabla-fila">009</td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                        <td class="tabla-fila"></td>
+                      </tr>
+                    </tbody>
+                    </table></div>
+            </div>
+
+        </div>
+
+    </main>
+    <footer>C0demakers 2021</footer>
+</body>
+
+</html>
