@@ -1,0 +1,247 @@
+body{
+    margin:0px
+    }
+
+ul{
+    list-style: none;
+    align-items: center;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px gray;
+    }
+
+.ordenTablas{
+    margin: 20px;
+    display: flex;
+}
+
+.margenEspecial{
+    margin: 40px;
+}
+
+
+.logo{
+    height: 100px;
+}
+
+@font-face {
+    font-family: 'Abadi';
+    src: url('abadi-mt-condensed-light.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+     url('abadi-mt-condensed-light.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  }  
+
+  @font-face {
+    font-family: 'Trampoline';
+    src: url('Trampoline demo.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+     url('Trampoline demo.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  }
+
+.parrafo1{font-size: 17px;
+    color: #1C5466;
+    font-family:'Abadi';
+    line-height: 23%     
+}
+
+.parrafo2{font-size: 30px;
+    color: #1C5466;
+    font-family:'Trampoline'; 
+    line-height: 23%  
+}
+
+.titulo{font-size: 35px;
+    color: #1C5466;
+    font-family:'Trampoline'; 
+    line-height: 25%  
+}
+
+.titulo2{
+    font-size: 35px;
+    color: #1C5466;
+    font-family:'Trampoline'; 
+    
+    
+}
+
+.button{
+    border: 0px;
+    border-radius: 10px;
+    padding: 2px 2px;
+    font-weight: bolder;
+    font-size: medium;
+    font-family:'Trampoline';
+    }
+
+.button:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px #1C5466;
+    transform: scale(1.1);
+}
+
+.botonPrincipal:focus{
+    cursor: pointer;
+    background-color: #1C5466;
+    font-weight: bolder;
+    font-family: 'Trampoline';
+    color:white;
+}
+
+.botonSecundario:active{
+    cursor: pointer;
+    background-color: #1C5466;
+    font-weight: bolder;
+    font-family: 'Trampoline';
+    color:white;
+}
+
+.botonPrincipal{
+    background-color: #00C0E4;
+    color: #1C5466;
+    padding: 10px 30px;
+        
+}
+
+.botonSecundario{
+    background-color: #00C0E4;
+    color: #1C5466;
+    padding: 10px 30px;    
+}
+
+.botonGuardar{
+    background-color: #00C0E4;
+    color: #1C5466;
+    padding: 10px 30px;   
+    font-family: 'Trampoline'; 
+}
+
+.botonGuardar:active{
+    cursor: pointer;
+    background-color: #1C5466;
+    font-weight: bolder;
+    font-family: 'Trampoline';
+    color:white;
+}
+
+.centrarButton{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#tabla{
+    border-collapse:separate;
+    border-spacing: 15px 10px;
+    border:solid black 1px;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 5px; 
+    text-align: center;
+    font-family:'Abadi';
+    width: 500px;
+}
+
+.contenedor{
+    font-weight: bolder;
+    font-family: 'Trampoline';
+    font-size: 18px;
+    color: #1C5466;
+    display: grid;
+    grid-column: auto;
+    grid-template-columns: 25% 25% 50%;
+    grid-template-rows: 100%;
+    align-items:left;
+    display: flex;
+    margin-top: 98px;
+    }
+
+.ordenadorFormulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.divSpacing{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 3%;
+        margin-right: 3%;
+   }
+  
+.cuadroTexto{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 1px;
+    border-radius: 5px;
+ }
+
+ .cuadroTexto > input{
+    outline: none;
+    border: 0px;
+ }
+
+ .buscar{
+    display:flex;
+    justify-content:space-between;
+    padding: 1px;
+ }
+
+ form { 
+    margin: 0 auto; 
+    width:100%;
+    background-color: #f0f0f0;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    }
+
+form label{
+    font-weight:bold;
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 10px;
+    float: center;
+    }
+
+.form input {
+        width: 100%;
+        height: 30px;
+        margin: 0.5rem;
+        display: block;
+        margin-bottom: 10px;
+        float: center;
+      }
+
+ .pop-up{
+    background-color:rgb(255, 255, 255);
+    opacity: 15;
+    border: 2px solid #1C5466;
+    border-radius: 20px;
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    font-size: 20px;
+
+  }
+  .popup{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+  #popUp:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+
+
+
+
