@@ -2,14 +2,14 @@ import React from 'react'
 
 const Login = () => {
     return (
-        <div className = "loginCont">
+        <div>
             <section className="form-login">
     <h1> Iniciar sesión CodeMakers</h1>
       <br/>
-      <input className="controls" type="text" name="usuario" value="" placeholder="Usuario"/>
-      <input className="controls" type="password" name="contraseña" value="" placeholder="Contraseña"/>
-      <input className="buttonsL" type="submit" name="" value="Ingresar con Gmail"/>
-      <input className="buttonsL" type="submit" name="" value="Ingresar"/>
+      <input className="controls loginCont" type="text" name="usuario" value="" placeholder="Usuario"/>
+      <input className="controls loginCont" type="password" name="contraseña" value="" placeholder="Contraseña"/>
+      <input className="button botonPrincipal" type="submit" name="" value="Ingresar con Gmail"/>
+      <input className="button botonPrincipal" type="submit" name="" value="Ingresar"/>
       <p><a href="#">¿Olvidastes tu Contraseña?</a></p>
 
     </section>
